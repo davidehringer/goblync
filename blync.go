@@ -61,7 +61,7 @@ func findDevices() []hid.Device {
 }
 
 func isBlyncDevice(deviceInfo hid.DeviceInfo) bool {
-	// TODO from forums: "Blync creates 2 HID devices and the only way to find out the right device is the MaxFeatureReportLength = 0"
+	// from forums: "Blync creates 2 HID devices and the only way to find out the right device is the MaxFeatureReportLength = 0"
 	if deviceInfo.VendorId == blyncVendorId && deviceInfo.ProductId == blyncProductId && deviceInfo.FeatureReportLength == 0 {
 		return true
 	}
