@@ -24,7 +24,7 @@ For building on Windows, see the potential quirks listed [here](github.com/boomb
 package main
 
 import (
-	"github.com/davidehringer/goblync/blync"
+	"github.com/davidehringer/goblync"
 	"time"
 )
 
