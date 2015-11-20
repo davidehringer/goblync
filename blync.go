@@ -104,7 +104,7 @@ func (b BlyncLight) SetBlinkRate(rate byte) {
 	b.sendFeatureReport()
 }
 
-//18-30 play a tune single time
+//16-30 play a tune single time
 //49-59 plays never ending versions of the tunes
 func (b BlyncLight) Play(mp3 byte) {
 	b.bytes[5] = mp3
