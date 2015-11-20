@@ -16,7 +16,7 @@ go get github.com/boombuler/hid
 go build
 ```
 
-For building on Windows, see the potential quirks listed [here](github.com/boombuler/hid).
+For building on Windows, see the potential quirks listed [here](https://github.com/boombuler/hid).
 
 ## Usage
 
